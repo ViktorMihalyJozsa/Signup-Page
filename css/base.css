@@ -1,0 +1,36 @@
+/*  ========================================================================  *\
+    
+    S I G N U P  P A G E  -  H T M L ,  C S S  J U N I O R
+    
+    * O V E R V I E W
+    
+    * The project is divided into several separate style sheets:
+    
+    * meyer-reset.css.....CSS reset, so browsers start from an equal position.
+    * base.css............Global rules and helpers.
+    * layout.css..........CSS rules controlling the layout of the page.
+    * components.css......The own CSS of the components that make up the page.
+    
+\*  ========================================================================  */
+
+/*  ========================================================================  *\
+    
+    * C O M M E N T
+
+    * HTML, BODY
+    *     html, body
+
+\*  ========================================================================  */
+
+/*  ========================================================================  *\
+    H T M L ,  B O D Y
+\*  ========================================================================  */
+
+html, body { 
+    width:            100%;
+    height:           100%;
+    margin:           0;
+    padding:          0;
+    font-family:      'Montserrat', sans-serif;
+    color:            #211138;
+}
