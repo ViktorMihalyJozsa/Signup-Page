@@ -27,12 +27,13 @@
     
     * CONTAINER
     *     .container;
-    *     @media(max-width: 1025px);
-    *     @media(max-width: 768px);
+    *      @media(max-width: 1025px);
+    *      @media(max-width: 768px);
     
     * MAIN
     *     main;
     *         .site-logo;
+    *          @media(max-width: 768px);
     *         .main-container;
     *             .main-content;
     *                 .main-content-box;
@@ -42,6 +43,7 @@
     * ASIDE
     *     aside;
     *         .form-container;
+    *          @media(max-width: 768px);
     *             .form-name;
     *             .form-email;
     
