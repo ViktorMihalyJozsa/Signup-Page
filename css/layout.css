@@ -173,11 +173,11 @@ aside {
 
     @media(max-width: 768px) {
         aside {
-            height: 90vh;
+            height: 85vh;
         }
 
         .form-container {
-            margin:  10.416vw 6.510vw auto 6.510vw;     /*  80px 50px auto 50px - Mobil 1vw = 7.68px  */
+            margin:  15.625vw 6.510vw auto 6.510vw;     /*  120px 50px auto 50px - Mobil 1vw = 7.68px  */
             padding: 6.510vw 6.510vw 10.416vw 6.510vw;  /*  50px 50px 80px 50px - Mobil 1vw = 7.68px  */
         }
     }
