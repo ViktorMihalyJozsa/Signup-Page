@@ -106,6 +106,20 @@ main {
         background-color: #6200ea;
     }
 
+    @media(max-width: 768px) {
+        main {
+            grid-area:        main;
+            
+            height:           100vh;
+            background-color: #6200ea;
+        }
+
+            .site-logo {
+                padding:    5.208vw;  /*  40px - Mobil 1vw = 7.68px  */
+                text-align: center;
+            }
+    }
+
     .main-container {
         padding: 7.368vw 10.526vw 7.368vw 10.526vw;  /*  Universal FHD-Tablet-Mobil min.-max.: 140px 200px 140px 200px - FHD max.calc.  */
     }
@@ -157,9 +171,20 @@ aside {
         opacity:          1;
     }
 
+    @media(max-width: 768px) {
+        aside {
+            height: 90vh;
+        }
+
+        .form-container {
+            margin:  10.416vw 6.510vw auto 6.510vw;     /*  80px 50px auto 50px - Mobil 1vw = 7.68px  */
+            padding: 6.510vw 6.510vw 10.416vw 6.510vw;  /*  50px 50px 80px 50px - Mobil 1vw = 7.68px  */
+        }
+    }
+
         .form-name,
         .form-email {
-            width:      calc(100% - 1.579vw);             /*  100% minus left-padding( px) - FHD max.calc.  */
+            width:      calc(100% - 1.579vw);          /*  100% minus left-padding(30px) - FHD max.calc.  */
             margin-top: max(12px, 0.631vw);            /*  Universal FHD-Tablet-Mobil min.-max.: 12px - FHD max.calc.  */
             padding:    0.842vw 0vw 0.842vw 1.579vw;   /*  Universal FHD-Tablet-Mobil min.-max.: 16px 0px 16px 30px - FHD max.calc.  */
             border:     none;
