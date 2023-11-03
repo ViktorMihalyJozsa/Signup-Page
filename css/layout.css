@@ -28,6 +28,7 @@
     * CONTAINER
     *     .container;
     *     @media(max-width: 1025px);
+    *     @media(max-width: 768px);
     
     * MAIN
     *     main;
@@ -35,8 +36,8 @@
     *         .main-container;
     *             .main-content;
     *                 .main-content-box;
-    *                     .fa;
     *                     .icon;
+    *                     .fa;
     
     * ASIDE
     *     aside;
@@ -75,6 +76,18 @@
     }
 }
 
+@media(max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "main"
+            "aside"
+            "footer";
+    }
+}
+
 
 /*  ========================================================================  *\
     M A I N
@@ -88,7 +101,7 @@ main {
 
     .site-logo {
         height:           auto;
-        padding:          12px 0px 12px 28px;
+        padding:          0.789vw 0vw 0.789vw 1.842vw;  /*  15px 0px 15px 35px  */
         text-align:       left;
         background-color: #6200ea;
     }
@@ -108,19 +121,19 @@ main {
                 text-align:      left;
             }
 
-                .fa {
-                    width:  20px;
-                    height: 20px;
-                    margin: 12px;
-                    color:  #6200ea;
-                }
-
                 .icon {
-                    width:            40px;
-                    height:           40px;
-                    margin:           25px;
+                    width:            max(40px, 2.105vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 40px - FHD max.calc.  */
+                    height:           max(40px, 2.105vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 40px - FHD max.calc.  */
+                    margin:           max(25px, 1.316vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 25px - FHD max.calc.  */
                     background-color: #ffffff;
                     border-radius:    50%;
+                }
+
+                .fa {
+                    width:  max(20px, 1.052vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 20px - FHD max.calc.  */
+                    height: max(20px, 1.052vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 20px - FHD max.calc.  */
+                    margin: max(12px, 0.631vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 12px - FHD max.calc.  */
+                    color:  #6200ea;
                 }
 
 
@@ -146,7 +159,7 @@ aside {
 
         .form-name,
         .form-email {
-            width:      calc(100% - 24px);             /*  100% minus left-padding( px) - FHD max.calc.  */
+            width:      calc(100% - 1.579vw);             /*  100% minus left-padding( px) - FHD max.calc.  */
             margin-top: max(12px, 0.631vw);            /*  Universal FHD-Tablet-Mobil min.-max.: 12px - FHD max.calc.  */
             padding:    0.842vw 0vw 0.842vw 1.579vw;   /*  Universal FHD-Tablet-Mobil min.-max.: 16px 0px 16px 30px - FHD max.calc.  */
             border:     none;

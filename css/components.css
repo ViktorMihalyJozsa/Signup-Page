@@ -38,18 +38,17 @@
 
 h1 {
     text-transform: none;
-    margin-bottom:  12px;  /*max( px, vw);   /*  Universal FHD-Tablet-Mobil min.-max.: px - FHD max.calc.  */
-    font-size:      32px;  /*max( px, vw);   /*  Universal FHD-Tablet-Mobil min.-max.: px - FHD max.calc.  */
+    margin-bottom:  max(12px, 0.631vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 12px - FHD max.calc.  */
+    font-size:      max(32px, 1.684vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 32px - FHD max.calc.  */
     font-weight:    bold;
-    line-height:    40px;  /*max( px, vw);   /*  Universal FHD-Tablet-Mobil min.-max.: px - FHD max.calc.  */
-    letter-spacing: 0;
+    line-height:    max(40px, 2.105vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 40px - FHD max.calc.  */
 }
 
 h2 {
     text-transform: none;
-    font-size:      24px;
+    font-size:      max(24px, 1.263vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 24px - FHD max.calc.  */
     font-weight:    bold;
-    line-height:    32px;
+    line-height:    max(32px, 1.684vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 32px - FHD max.calc.  */
     text-align:     left;
     color:          #ffffff;
 }
@@ -58,10 +57,10 @@ h3, h4,
 .button-blue,
 .button-white {
     text-transform: uppercase;
-    font-size:      9.6px;   /*max( px, vw);  /*  Universal FHD-Tablet-Mobil min.-max.: px - FHD max.calc.  */
+    font-size:      max(10px, 0.505vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 10px - FHD max.calc.  */
     font-weight:    bold;
-    line-height:    12px;   /*max( px, vw);  /*  Universal FHD-Tablet-Mobil min.-max.: px - FHD max.calc.  */
-    letter-spacing: 2.4px;  /*  px  */
+    line-height:    max(12px, 0.631vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 12px - FHD max.calc.  */
+    letter-spacing: 2px;
 }
 
 h3 {
@@ -69,7 +68,7 @@ h3 {
 }
 
 h4 {
-    margin:     10px 0px 15px 0px;
+    margin:     0.789vw 0vw 1.052vw 0vw;  /*  15px 0px 20px 0px  */
     text-align: right;
     color:      #6200ea;
 }
@@ -77,12 +76,12 @@ h4 {
 .form-name,
 .form-email {
     text-align:     left;
-    font-size:      14px;   /*max( px, vw);  /*  Universal FHD-Tablet-Mobil min.-max.: px - FHD max.calc.  */
+    font-size:      max(14px, 0.737vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 14px - FHD max.calc.  */
     font-weight:    bold;
-    line-height:    18px;   /*max( px, vw);  /*  Universal FHD-Tablet-Mobil min.-max.: px - FHD max.calc.  */
-    letter-spacing: 1px;  /*  px  */
+    line-height:    max(18px, 0.947vw);  /*  Universal FHD-Tablet-Mobil min.-max.: px - FHD max.calc.  */
+    letter-spacing: 1px;
     color:          #211138;
-    opacity:        0.5;
+    opacity:        0.66;
 }
 
 .footer-brandname,
@@ -99,13 +98,13 @@ h4 {
 .button-white {
     display:          inline-block;
     cursor:           pointer;
-    width:            100%;  /*420px;*/
-    margin-top:       12px;  /*max( 12px, vw);  /*  Universal FHD-Tablet-Mobil min.-max.: px - FHD max.calc.  */
-    padding-top:      13px;  /*max( 13px, vw);  /*  Universal FHD-Tablet-Mobil min.-max.: px-border - FHD max.calc.  */
-    padding-bottom:   12px;  /*max( 12px, vw);  /*  Universal FHD-Tablet-Mobil min.-max.: px-border - FHD max.calc.  */
+    width:            100%;
+    margin-top:       max(12px, 0.631vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 12px - FHD max.calc.  */
+    padding-top:      max(13px, 0.684vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 13px-border - FHD max.calc.  */
+    padding-bottom:   max(13px, 0.684vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 13px-border - FHD max.calc.  */
     border:           2px solid;
     border-color:     #6200ea;
-    border-radius:    24px;  /*max( 24px, vw);  /*  Universal FHD-Tablet-Mobil min.-max.: px - FHD max.calc.  */
+    border-radius:    max(24px, 1.263vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 24px - FHD max.calc.  */
     text-align:       center;
 }
 
