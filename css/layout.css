@@ -173,7 +173,7 @@ aside {
 
     @media(max-width: 768px) {
         aside {
-            height: 85vh;
+            height: 90vh;
         }
 
         .form-container {
