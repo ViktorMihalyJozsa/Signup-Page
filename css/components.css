@@ -22,8 +22,13 @@
     * C O M M E N T
     
     * FONTS
-    *     h1, h2, h3, h4; 
+    *     h1, h2;
+    *      @media(max-width: 1025px);
+    *      @media(max-width: 768px);
+
+    *     h3, h4;
     *     .button-blue, .button-white;
+
     *     .form-name, .form-email;
     *     .footer-brandname, .footer-studentname;
     
@@ -56,8 +61,8 @@ h2 {
 @media(max-width: 1025px) {
     h1 {
         margin-bottom:  max(9px, 0.473vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 12px - FHD max.calc.  */
-        font-size:      max(24px, 1.263vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 32px - FHD max.calc.  */
-        line-height:    max(30px, 1.579vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 40px - FHD max.calc.  */
+        font-size:      max(22px, 1.052vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 32px - FHD max.calc.  */
+        line-height:    max(28px, 1.316vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 40px - FHD max.calc.  */
     }
     
     h2 {

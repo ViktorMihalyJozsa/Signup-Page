@@ -135,6 +135,12 @@ main {
                     color:  #6200ea;
                 }
 
+@media(max-width: 1025px) {
+    .main-container {
+        padding: 10vh 5vw 0vh 5vw;   /*  Universal FHD-Tablet-Mobil min.-max.: px(10%) px px px - FHD max.calc.  */
+    }
+}
+
 @media(max-width: 768px) {
     main {
         grid-area:        main;
@@ -167,6 +173,12 @@ aside {
         border-radius:    max(15px, 0.789vw);               /*  Universal FHD-Tablet-Mobil min.-max.: 15px - FHD max.calc.  */
         background-color: #ffffff;
         opacity:          1;
+    }
+
+    @media(max-width: 1025px) {
+        .form-container {
+            padding: 5vh 3.684vw 4vh 3.684vw;   /*  Universal FHD-Tablet-Mobil min.-max.: px(10%) px px px - FHD max.calc.  */
+        }
     }
 
     @media(max-width: 768px) {
