@@ -73,9 +73,9 @@ h2 {
 
 @media(max-width: 768px) {
     h1 {
-        margin-bottom:  max(12px, 0.631vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 12px - FHD max.calc.  */
-        font-size:      max(32px, 1.684vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 32px - FHD max.calc.  */
-        line-height:    max(40px, 2.105vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 40px - FHD max.calc.  */
+        margin-bottom:  max(12px, 0.631vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 12px - FHD max.calc.  */
+        font-size:      max(32px, 1.684vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 32px - FHD max.calc.  */
+        line-height:    max(40px, 2.105vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 40px - FHD max.calc.  */
     }
     
     h2 {

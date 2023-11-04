@@ -33,17 +33,19 @@
     * MAIN
     *     main;
     *         .site-logo;
-    *          @media(max-width: 768px);
     *         .main-container;
     *             .main-content;
     *                 .main-content-box;
     *                     .icon;
     *                     .fa;
+    *          @media(max-width: 768px);
+    *          @media(max-width: 1025px);
     
     * ASIDE
     *     aside;
     *         .form-container;
     *          @media(max-width: 768px);
+    *          @media(max-width: 1025px);
     *             .form-name;
     *             .form-email;
     
@@ -137,7 +139,7 @@ main {
 
 @media(max-width: 1025px) {
     .main-container {
-        padding: 5vh 5vw 0vh 5vw;   /*  Universal FHD-Tablet-Mobil min.-max.: px(10%) px px px - FHD max.calc.  */
+        padding: 5vh 5vw 0vh 5vw;   /*  Universal FHD-Tablet-Mobil c.a. min.-max.: 50px(5%) 50px 0px 50px - HD max.calc.  */
     }
 }
 
@@ -149,12 +151,12 @@ main {
     }
             
         .site-logo {
-            padding:    5.208vw;  /*  40px - Mobil 1vw = 7.68px  */
+            padding:    5.263vw;  /*  40px - Mobil 1vw=7.6px  */
             text-align: center;
         }
 
         .main-container {
-            padding: 15.55vh 10.526vw 0vh 10.526vw;   /*  Universal FHD-Tablet-Mobil min.-max.: 140px(15.55%) 200px 0px 200px - FHD max.calc.  */
+            padding: 15.789vh 10.526vw 0vh 10.526vw;   /*  Mobil c.a. min.-max.: 120px(15.55%) 80px 0px 80px - FHD max.calc.  */
         }
 }
 
@@ -171,8 +173,8 @@ aside {
 }
 
     .form-container {
-        margin:           9.259vh 8.158vw 9.259vh 8.158vw;  /*  Universal FHD-Tablet-Mobil min.-max.: 85px(c.a.:9.259%) 155px 75px 155px - FHD max.calc.  */
-        padding:          3.158vw 3.684vw 7.894vw 3.684vw;  /*  Universal FHD-Tablet-Mobil min.-max.: 60px 70px 150px 70px - FHD max.calc.  */
+        margin:           9.259vh 8.158vw 9.259vh 8.158vw;  /*  FHD-Tablet min.-max.: 85px(c.a.:9.259%) 155px 75px 155px - FHD max.calc.  */
+        padding:          3.158vw 3.684vw 7.894vw 3.684vw;  /*  FHD min.-max.: 60px 70px 150px 70px - FHD max.calc.  */
         border:           1px;
         border-radius:    max(15px, 0.789vw);               /*  Universal FHD-Tablet-Mobil min.-max.: 15px - FHD max.calc.  */
         background-color: #ffffff;
@@ -181,7 +183,7 @@ aside {
 
     @media(max-width: 1025px) {
         .form-container {
-            padding: 5vh 3.684vw 4vh 3.684vw;   /*  Universal FHD-Tablet-Mobil min.-max.: px(10%) px px px - FHD max.calc.  */
+            padding: 5vh 3.684vw 4vh 3.684vw;   /*  Tablet min.-max.: 38px(5%) 38px 30px 38px - FHD max.calc.  */
         }
     }
 
@@ -191,8 +193,8 @@ aside {
         }
 
         .form-container {
-            margin:  20vh 6.510vw auto 6.510vw;     /*  150px(20%) 50px auto 50px - Mobil 1vw = 7.68px  */
-            padding: 6.510vw 6.510vw 10.416vw 6.510vw;  /*  50px 50px 80px 50px - Mobil 1vw = 7.68px  */
+            margin:  20vh 6.510vw auto 6.510vw;         /*  150px(20%) 50px auto 50px - Mobil 1vw=7.68px  */
+            padding: 6.510vw 6.510vw 10.416vw 6.510vw;  /*  50px 50px 80px 50px - Mobil 1vw=7.68px  */
         }
     }
 
