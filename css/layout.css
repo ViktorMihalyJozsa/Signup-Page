@@ -102,12 +102,12 @@ main {
 
     .site-logo {
         height:           auto;
-        padding:          0.789vw 0vw 0.789vw 1.842vw;  /*  15px 0px 15px 35px  */
+        padding:          0.789vw 0vw 0.789vw 1.842vw;  /*  15px 0px 15px 35px - FHD max.calc.  */
         text-align:       left;
     }
 
     .main-container {
-        padding: 15vh 10.526vw 0vh 10.526vw;   /*  Universal FHD-Tablet-Mobil min.-max.: 140px(15%) 200px 0px 200px - FHD max.calc.  */
+        padding: 15.55vh 10.526vw 0vh 10.526vw;   /*  Universal FHD-Tablet-Mobil min.-max.: 140px(15.55%) 200px 0px 200px - FHD max.calc.  */
     }
 
         .main-content {
@@ -198,6 +198,7 @@ aside {
 footer {
     grid-area:        footer;
 
+    height:           15%;
     padding-top:      max(34px, 1.789vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 34px - FHD max.calc.  */
     padding-bottom:   max(34px, 1.789vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 34px - FHD max.calc.  */
     background-color: #211138;
