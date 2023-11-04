@@ -137,7 +137,7 @@ main {
 
 @media(max-width: 1025px) {
     .main-container {
-        padding: 10vh 5vw 0vh 5vw;   /*  Universal FHD-Tablet-Mobil min.-max.: px(10%) px px px - FHD max.calc.  */
+        padding: 5vh 5vw 0vh 5vw;   /*  Universal FHD-Tablet-Mobil min.-max.: px(10%) px px px - FHD max.calc.  */
     }
 }
 
