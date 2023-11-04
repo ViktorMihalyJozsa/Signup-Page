@@ -152,6 +152,10 @@ main {
             padding:    5.208vw;  /*  40px - Mobil 1vw = 7.68px  */
             text-align: center;
         }
+
+        .main-container {
+            padding: 15.55vh 10.526vw 0vh 10.526vw;   /*  Universal FHD-Tablet-Mobil min.-max.: 140px(15.55%) 200px 0px 200px - FHD max.calc.  */
+        }
 }
 
 
