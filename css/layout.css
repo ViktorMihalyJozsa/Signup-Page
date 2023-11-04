@@ -104,11 +104,10 @@ main {
         height:           auto;
         padding:          0.789vw 0vw 0.789vw 1.842vw;  /*  15px 0px 15px 35px  */
         text-align:       left;
-        background-color: #6200ea;
     }
 
     .main-container {
-        padding: 15vh 10.526vw 0vh 10.526vw;   /*  Universal FHD-Tablet-Mobil min.-max.: 140px(15%) 200px 140px 200px - FHD max.calc.  */
+        padding: 15vh 10.526vw 0vh 10.526vw;   /*  Universal FHD-Tablet-Mobil min.-max.: 140px(15%) 200px 0px 200px - FHD max.calc.  */
     }
 
         .main-content {
@@ -141,7 +140,6 @@ main {
         grid-area:        main;
                         
         height:           100vh;
-        background-color: #6200ea;
     }
             
         .site-logo {
@@ -163,7 +161,7 @@ aside {
 }
 
     .form-container {
-        margin:           4.473vw 8.158vw 4.473vw 8.158vw;  /*  Universal FHD-Tablet-Mobil min.-max.: 85px 155px 75px 155px - FHD max.calc.  */
+        margin:           9.259vh 8.158vw 9.259vh 8.158vw;  /*  Universal FHD-Tablet-Mobil min.-max.: 85px(c.a.:9.259%) 155px 75px 155px - FHD max.calc.  */
         padding:          3.158vw 3.684vw 7.894vw 3.684vw;  /*  Universal FHD-Tablet-Mobil min.-max.: 60px 70px 150px 70px - FHD max.calc.  */
         border:           1px;
         border-radius:    max(15px, 0.789vw);               /*  Universal FHD-Tablet-Mobil min.-max.: 15px - FHD max.calc.  */
@@ -177,7 +175,7 @@ aside {
         }
 
         .form-container {
-            margin:  19.531vw 6.510vw auto 6.510vw;     /*  150px 50px auto 50px - Mobil 1vw = 7.68px  */
+            margin:  20vh 6.510vw auto 6.510vw;     /*  150px(20%) 50px auto 50px - Mobil 1vw = 7.68px  */
             padding: 6.510vw 6.510vw 10.416vw 6.510vw;  /*  50px 50px 80px 50px - Mobil 1vw = 7.68px  */
         }
     }
