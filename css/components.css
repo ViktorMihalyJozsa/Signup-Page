@@ -55,20 +55,27 @@ h2 {
 
 @media(max-width: 1025px) {
     h1 {
-        text-transform: none;
         margin-bottom:  max(9px, 0.473vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 12px - FHD max.calc.  */
         font-size:      max(24px, 1.263vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 32px - FHD max.calc.  */
-        font-weight:    bold;
         line-height:    max(30px, 1.579vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 40px - FHD max.calc.  */
     }
     
     h2 {
-        text-transform: none;
         font-size:      max(18px, 0.947vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 24px - FHD max.calc.  */
-        font-weight:    bold;
         line-height:    max(24px, 1.263vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 32px - FHD max.calc.  */
-        text-align:     left;
-        color:          #ffffff;
+    }
+}
+
+@media(max-width: 768px) {
+    h1 {
+        margin-bottom:  max(12px, 0.631vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 12px - FHD max.calc.  */
+        font-size:      max(32px, 1.684vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 32px - FHD max.calc.  */
+        line-height:    max(40px, 2.105vw);   /*  Universal FHD-Tablet-Mobil min.-max.: 40px - FHD max.calc.  */
+    }
+    
+    h2 {
+        font-size:      max(24px, 1.263vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 24px - FHD max.calc.  */
+        line-height:    max(32px, 1.684vw);  /*  Universal FHD-Tablet-Mobil min.-max.: 32px - FHD max.calc.  */
     }
 }
 
